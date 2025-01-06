@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/ecommerce-watch-site/static/css/main.4ba830b7.css",
+    "main.js": "/ecommerce-watch-site/static/js/main.bf74e8b9.js",
+    "static/media/card8.png": "/ecommerce-watch-site/static/media/card8.a5d328f63e32feb4e062.png",
+    "static/media/logBg.png": "/ecommerce-watch-site/static/media/logBg.23afe95e0ad55d6f65e0.png",
+    "static/media/about.png": "/ecommerce-watch-site/static/media/about.feb740e9b79a9032248a.png",
+    "static/media/collectionBannerTwo.png": "/ecommerce-watch-site/static/media/collectionBannerTwo.669434107ffb044c3e50.png",
+    "static/media/watchshowOne.png": "/ecommerce-watch-site/static/media/watchshowOne.6ec37ddd5d62e92ee94e.png",
+    "static/media/adBanner.png": "/ecommerce-watch-site/static/media/adBanner.bd7e24b5a4eebd4e40b4.png",
+    "static/media/heroBanner.png": "/ecommerce-watch-site/static/media/heroBanner.be63d7f46487b3d043d2.png",
+    "static/media/brand.png": "/ecommerce-watch-site/static/media/brand.a2431f1fa412748f8b97.png",
+    "static/media/brand4.png": "/ecommerce-watch-site/static/media/brand4.5a0907e68f9d9224a196.png",
+    "static/media/brand8.png": "/ecommerce-watch-site/static/media/brand8.0dfdea9081194d547b82.png",
+    "static/media/brand7.png": "/ecommerce-watch-site/static/media/brand7.b0a52351a47028a0f9c7.png",
+    "static/media/brand6.png": "/ecommerce-watch-site/static/media/brand6.02b0ea1cdc7615ea0211.png",
+    "static/media/brand1.png": "/ecommerce-watch-site/static/media/brand1.782bf51eb656c54da57a.png",
+    "static/media/bgImage.jpg": "/ecommerce-watch-site/static/media/bgImage.fc2aa949524f367f3d6f.jpg",
+    "static/media/collectionBanner.png": "/ecommerce-watch-site/static/media/collectionBanner.1d29ee540ae6a613c0f3.png",
+    "static/media/brand5.png": "/ecommerce-watch-site/static/media/brand5.9195deff5b908fafafdf.png",
+    "static/media/brand9.png": "/ecommerce-watch-site/static/media/brand9.75595bc1a8816ff4b1e8.png",
+    "static/media/Layer2.png": "/ecommerce-watch-site/static/media/Layer2.d0b0a36762ea8d13a389.png",
+    "static/media/brand10.png": "/ecommerce-watch-site/static/media/brand10.04e3234ad8cf79d434b6.png",
+    "static/media/Layer6.png": "/ecommerce-watch-site/static/media/Layer6.7f84ab83bb34e14ec9c6.png",
+    "static/media/brand2.png": "/ecommerce-watch-site/static/media/brand2.e1e3af6238b59a5f415d.png",
+    "static/media/Layer8.png": "/ecommerce-watch-site/static/media/Layer8.00b0488979063f9c4cd7.png",
+    "static/media/Layer3.png": "/ecommerce-watch-site/static/media/Layer3.75ddb8af2ecc72d7522b.png",
+    "static/media/Layer4.png": "/ecommerce-watch-site/static/media/Layer4.858be0401cea1f72c548.png",
+    "static/media/showOne.png": "/ecommerce-watch-site/static/media/showOne.8bbd23da2238993318d9.png",
+    "static/media/showTwo.png": "/ecommerce-watch-site/static/media/showTwo.0d2272780789a32cc5d1.png",
+    "static/media/showThree.png": "/ecommerce-watch-site/static/media/showThree.72949372e1d663ddb27a.png",
+    "static/media/Layer7.png": "/ecommerce-watch-site/static/media/Layer7.2cacea122a4382676f23.png",
+    "static/media/Layer5.png": "/ecommerce-watch-site/static/media/Layer5.da526fb9bdaadf0ca155.png",
+    "index.html": "/ecommerce-watch-site/index.html",
+    "main.4ba830b7.css.map": "/ecommerce-watch-site/static/css/main.4ba830b7.css.map",
+    "main.bf74e8b9.js.map": "/ecommerce-watch-site/static/js/main.bf74e8b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ba830b7.css",
+    "static/js/main.bf74e8b9.js"
+  ]
+}
