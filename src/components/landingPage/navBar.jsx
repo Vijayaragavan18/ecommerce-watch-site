@@ -19,7 +19,6 @@ const NavBar = () => {
                         <Link to='/' style={{ color: ' #F3F1E7 ' }}>Capgs</Link>
                     </div>
                     <div className="navCenter">
-
                         <Link to='/'>Home</Link>
                         <Link to='/collection'>Collection</Link>
                         <Link to='/About'>About</Link>

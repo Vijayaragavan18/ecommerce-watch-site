@@ -8,12 +8,6 @@ import Third from './components/landingPage/heroPageThree';
 import Four from './components/landingPage/heroPageFour';
 import Five from './components/landingPage/heroPageFive';
 import Six from './components/landingPage/heroPageSix';
-// import Footer from './components/landingPage/footer';
-
-
-// Collection parts 
-
-
 
 
 const App = () => {
@@ -24,7 +18,7 @@ const App = () => {
   return (
     <>
 
-
+      hello
 
 
       <section style={{ backgroundColor: "#1C1913" }}>
