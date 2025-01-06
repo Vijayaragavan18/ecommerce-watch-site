@@ -6,7 +6,7 @@ import Collection from "./components/collection/collection";
 import About from "../src/components/aboutPage/about";
 import Footer from "./components/landingPage/footer";
 import ViewPage from './components/landingPage/ViewCartPage.jsx';
-import LoginPage from './components/landingPage/logPage.jsx';
+
 import Cart from './components/cart/Cart';
 import App from './App';
 import Data from './assets/product.json';
@@ -24,7 +24,7 @@ import Brand9 from './assets/productImage/brand8.png';
 import Brand10 from './assets/productImage/brand9.png';
 import Brand11 from './assets/productImage/brand10.png';
 import Brand12 from './assets/productImage/brand7.png';
-import LogPage from './components/landingPage/logPage.jsx';
+
 
 export const cartContext = createContext();
 
