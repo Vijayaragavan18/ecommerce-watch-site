@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from 'react-router-dom';
 import '../css/style.css';
-// import Button from "react-bootstrap";
+
 import { FaShoppingCart } from "react-icons/fa";
 import { cartContext } from "../../connect";
 import LogPage from "./logPage";
@@ -20,7 +20,6 @@ const NavBar = () => {
                     </div>
                     <div className="navCenter">
 
-                        {/* <a href="./">Collection</a> */}
                         <Link to='/'>Home</Link>
                         <Link to='/collection'>Collection</Link>
                         <Link to='/About'>About</Link>
