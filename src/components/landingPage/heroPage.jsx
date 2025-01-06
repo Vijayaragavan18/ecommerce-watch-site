@@ -68,11 +68,7 @@ const heroPage = () => {
                         <div className="heroImg">
                             vj
                         </div>
-                        <div className="heroTexts">
-                            <h3><span style={{ fontWeight: "bold" }}> Dont ever trust</span> a man who wears
-                                <br /> his watch on the <span style={styleCss}>wrong wrist </span></h3>
-                            <a href="./"><button >LEARN MORE</button></a>
-                        </div>
+
                     </div>
                 </SwiperSlide>
             </Swiper>
