@@ -18,7 +18,6 @@ const App = () => {
   return (
     <>
 
-      hello
 
 
       <section style={{ backgroundColor: "#1C1913" }}>
