@@ -1,13 +1,13 @@
 import { createContext, React, useState } from 'react'
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Nav from "./components/landingPage/navBar";
-// import {  as Router } from 'react-router-dom';
+
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Collection from "./components/collection/collection";
 import About from "../src/components/aboutPage/about";
 import Footer from "./components/landingPage/footer";
 import ViewPage from './components/landingPage/ViewCartPage.jsx';
-import LoginPage from './components/landingPage/logPage.jsx';
+
 import Cart from './components/cart/Cart';
 import App from './App';
 import Data from './assets/product.json';
@@ -66,9 +66,7 @@ function Connect() {
     const [input, setinput] = useState(dataValue);
 
 
-    // setTimeout(() => (
-    //     setvisible(true)
-    // ), 7000)
+
     return (
 
         <cartContext.Provider value={{ cart, setCart, products, brandImage, visible, dataValue, setvisible, input, setinput, showReg, setShowReg }}>
