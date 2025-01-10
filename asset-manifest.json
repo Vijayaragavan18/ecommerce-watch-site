@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ecommerce-watch-site/static/css/main.4ba830b7.css",
-    "main.js": "/ecommerce-watch-site/static/js/main.bf74e8b9.js",
+    "main.js": "/ecommerce-watch-site/static/js/main.726f7ae4.js",
     "static/media/card8.png": "/ecommerce-watch-site/static/media/card8.a5d328f63e32feb4e062.png",
     "static/media/logBg.png": "/ecommerce-watch-site/static/media/logBg.23afe95e0ad55d6f65e0.png",
     "static/media/about.png": "/ecommerce-watch-site/static/media/about.feb740e9b79a9032248a.png",
@@ -33,10 +33,10 @@
     "static/media/Layer5.png": "/ecommerce-watch-site/static/media/Layer5.da526fb9bdaadf0ca155.png",
     "index.html": "/ecommerce-watch-site/index.html",
     "main.4ba830b7.css.map": "/ecommerce-watch-site/static/css/main.4ba830b7.css.map",
-    "main.bf74e8b9.js.map": "/ecommerce-watch-site/static/js/main.bf74e8b9.js.map"
+    "main.726f7ae4.js.map": "/ecommerce-watch-site/static/js/main.726f7ae4.js.map"
   },
   "entrypoints": [
     "static/css/main.4ba830b7.css",
-    "static/js/main.bf74e8b9.js"
+    "static/js/main.726f7ae4.js"
   ]
 }
