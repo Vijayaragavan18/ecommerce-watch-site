@@ -1,7 +1,7 @@
 import { createContext, React, useState } from 'react'
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Nav from "./components/landingPage/navBar";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Collection from "./components/collection/collection";
 import About from "../src/components/aboutPage/about";
 import Footer from "./components/landingPage/footer";
@@ -74,7 +74,7 @@ function Connect() {
 
 
 
-            <HashRouter>
+            <BrowserRouter basename='/ecommerce-watch-site'>
                 <Nav />
                 <Routes>
                     <Route path="/" element={<App />}></Route>
@@ -89,7 +89,7 @@ function Connect() {
 
                 <Footer />
 
-            </HashRouter>
+            </BrowserRouter>
 
         </cartContext.Provider>
 
