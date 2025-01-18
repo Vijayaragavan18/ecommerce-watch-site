@@ -8,9 +8,17 @@ import LogPage from "./logPage";
 
 const NavBar = () => {
 
-    const { cart, visible, setvisible, dataValue, showReg, setShowReg, input, setinput } = useContext(cartContext);
+    const { check, setCheck, cart, visible, setvisible, dataValue, showReg, setShowReg, input, setinput } = useContext(cartContext);
     const objectLen = Object.keys(input).length;
-    console.log(input);
+    // if (Object.values(input).some(value => Boolean(value))) {
+    //     console.log('At least one field has a value');
+    // } else {
+    //     console.log('No fields have a value');
+    // }
+
+    console.log(objectLen)
+
+
     return (
         <>
             <div className="nav1">
@@ -26,9 +34,9 @@ const NavBar = () => {
                     <div className="logDetails">
                         <Link to="/Cart"><span>{cart.length}</span> {< FaShoppingCart />}</Link>
                         {
-                            objectLen != 0 ?
+                            check != false ?
 
-                                <button onClick={() => setvisible(true)} className="btn btn-primary" type="button">User Account</button> :
+                                <Link to='/UserAccount' className="btn btn-primary" type="button">User Account</Link> :
                                 <button onClick={() => setvisible(true)} className="btn btn-primary" type="button">login</button>
                         }
                     </div>

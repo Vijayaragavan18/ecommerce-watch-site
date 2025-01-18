@@ -1,12 +1,20 @@
 import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import '../css/style.css';
+import BgOne from '../../assets/productImage/bg1.png';
+import BgTwo from '../../assets/productImage/bg2.jpg';
+import BgThree from '../../assets/productImage/bgOne.png';
 
+import MbOne from '../../assets/mobileImg/one.png';
+import MbTwo from '../../assets/mobileImg/two.png';
+import MbThree from '../../assets/mobileImg/three.png';
+
+
+
+import '../css/style.css';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
 import '../css/style.css';
 const heroPage = () => {
     const styleCss = {
@@ -45,7 +53,15 @@ const heroPage = () => {
         <SwiperSlide>Slide 7</SwiperSlide>
         <SwiperSlide>Slide 8</SwiperSlide>
         <SwiperSlide>Slide 9</SwiperSlide>
+        
       </Swiper>
+
+
+
+
+
+      Jacob & Co's Latest India Edition:
+The 'Wonders Of India'
  */}
 
 
@@ -72,37 +88,39 @@ const heroPage = () => {
                 <SwiperSlide>
                     <div className="slideShow">
                         <div className="heroImg">
-                            vj
-                        </div>
-                        <div className="heroTexts">
-                            <h3><span style={{ fontWeight: "bold" }}> Dont ever trust</span> a man who wears
-                                <br /> his watch on the <span style={styleCss}>wrong wrist </span></h3>
-                            <a href="./"><button >LEARN MORE</button></a>
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="slideShow">
-                        <div className="heroImg">
-                            vj
-                        </div>
-                        <div className="heroTexts">
-                            <h3><span style={{ fontWeight: "bold" }}> Dont ever trust</span> a man who wears
-                                <br /> his watch on the <span style={styleCss}>wrong wrist </span></h3>
-                            <a href="./"><button >LEARN MORE</button></a>
+                            <img src={BgOne} className="oneImg" alt="bgImage" />
+                            <img src={MbThree} className="TwoImg" alt="bgImage" />
+                            <div className="heroTexts">
+                                <h3><span style={{ fontWeight: "bold" }}> Dont ever trust</span> a man who wears
+                                    <br /> his watch on the <span style={styleCss}>wrong wrist </span></h3>
+                                <a href="./"><button >LEARN MORE</button></a>
+                            </div>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="slideShow">
-                        <div className="heroImg">
-                            vj
+                        <div className=" heroImgTwo">
+                            <img src={BgTwo} className="oneImg" alt="bgImage" />
+                            <img src={MbOne} className="TwoImg" alt="bgImage" />
+                            <div className="heroTextsTwo">
+                                <a href="./"><button >LEARN MORE</button></a>
+                            </div>
                         </div>
-                        <div className="heroTexts">
-                            <h3><span style={{ fontWeight: "bold" }}> Dont ever trust</span> a man who wears
-                                <br /> his watch on the <span style={styleCss}>wrong wrist </span></h3>
-                            <a href="./"><button >LEARN MORE</button></a>
+
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="slideShow">
+                        <div className="heroImgThree">
+                            <img src={BgThree} className="oneImg" alt="bgImage" />
+                            <img src={MbTwo} className="TwoImg" alt="bgImage" />
+                            <div className="heroTextsThree">
+                                <h3>No wonder, it's a wonder</h3>
+                                <a href="./"><button >LEARN MORE</button></a>
+                            </div>
                         </div>
+
                     </div>
                 </SwiperSlide>
             </Swiper>

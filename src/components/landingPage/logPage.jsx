@@ -5,6 +5,8 @@ import toast, { Toaster } from 'react-hot-toast';
 import LogBg from "../../images/logBg.png";
 import RegBg from "../../images/bgImage.jpg";
 import '../css/style.css';
+
+import axios from 'axios';
 const RenderMessage = ({ message }) => {
     if (!message) return null;
     return <div className="text-danger text-start w-100">{message}</div>
@@ -13,7 +15,7 @@ const RenderMessage = ({ message }) => {
 
 
 const LogPage = ({ onClose }) => {
-    const { setvisible, dataValue, input, setinput, } = useContext(cartContext);
+    const { check, setCheck, setvisible, dataValue, input, setinput, } = useContext(cartContext);
     const [showReg, setShowReg] = useState("Login")
     const [error, setError] = useState(false);
 
@@ -44,17 +46,22 @@ const LogPage = ({ onClose }) => {
 
 
     }
-    // const isValidRePassword = (e) => {
-    //     return input.UserPassword != e;
+    
 
 
 
 
 
-
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
 
+
+
+
+        // 'https://jsonplaceholder.typicode.com/todos/1'
+
+
+        const response = await axios.post('https://jsonplaceholder.typicode.com/posts', input);
         if (!input.UserEmail || input.UserEmail === "") {
             setError(true);
             return
@@ -79,10 +86,31 @@ const LogPage = ({ onClose }) => {
         }
 
 
-        setinput(dataValue);
 
-        successNotify();
-        console.log("value is", input)
+        successNotify()
+        setCheck(true)
+
+
+        //     successNotify() ? 
+        //    ;
+        //     : 
+
+        onClose()
+
+
+        console.log("value is", response.status)
+
+
+
+
+        // } catch (error) {
+
+        //     errorNotify()
+        // }
+
+
+
+
     }
 
 

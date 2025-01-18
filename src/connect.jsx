@@ -6,7 +6,7 @@ import Collection from "./components/collection/collection";
 import About from "../src/components/aboutPage/about";
 import Footer from "./components/landingPage/footer";
 import ViewPage from './components/landingPage/ViewCartPage.jsx';
-
+import UserAccount from './components/userAccount/UserPage.jsx';
 import Cart from './components/cart/Cart';
 import App from './App';
 import Data from './assets/product.json';
@@ -55,6 +55,9 @@ function Connect() {
     const [visible, setvisible] = useState(false);
     const [showReg, setShowReg] = useState(false);
 
+    const [check, setCheck] = useState(false)
+
+
     const dataValue = {
         UserEmail: "",
         UserPassword: "",
@@ -70,7 +73,7 @@ function Connect() {
     // ), 7000)
     return (
 
-        <cartContext.Provider value={{ cart, setCart, products, brandImage, visible, dataValue, setvisible, input, setinput, showReg, setShowReg }}>
+        <cartContext.Provider value={{ check, setCheck, cart, setCart, products, brandImage, visible, dataValue, setvisible, input, setinput, showReg, setShowReg }}>
 
 
 
@@ -83,6 +86,7 @@ function Connect() {
                     <Route path="/viewPage" element={<ViewPage />}></Route>
                     <Route path="/Cart" element={<Cart products={products} />}></Route >
                     <Route path='/viewCart/:productId' element={<ViewCart />}></Route>
+                    <Route path='/UserAccount' element={<UserAccount />}></Route>
 
                 </Routes>
 

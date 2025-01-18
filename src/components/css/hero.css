@@ -20,33 +20,242 @@
 
 .heroImg {
 
-    min-height: 90vh;
     background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: relative;
 }
+
+
+.heroImgTwo {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.heroImgThree {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.heroImgThree h3 {
+    font-size: 48px;
+    font-weight: lighter;
+    user-select: none;
+    color: rgb(255, 255, 255);
+}
+
 
 .heroTexts h3 {
     font-size: 48px;
     font-weight: lighter;
     user-select: none;
+    color: rgb(255, 255, 255);
 }
 
 .heroTexts {
     position: absolute;
-    bottom: 40px;
-    left: 100px;
-    width: fit-content;
+
+    left: 80px;
+
+    z-index: 2;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.heroTextsThree {
+    position: absolute;
+
+    /* right: 170px; */
+
+    z-index: 2;
+    -webkit-user-select: none;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heroTextsTwo {
+    position: absolute;
     z-index: 2;
     user-select: none;
+    margin-top: 150px;
+
 }
 
 .heroTexts button {
     font-size: 20px;
     border: none;
-    background-color: transparent;
+    background-color: wheat;
     font-weight: bold;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 5px;
+    width: 180px;
+    height: 40px;
+
 }
+
+.heroTextsThree button {
+    font-size: 20px;
+    border: none;
+    background-color: #fcfcfc;
+    color: #881d13;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+    width: 180px;
+    height: 40px;
+
+}
+
+.heroTextsTwo button {
+    font-size: 20px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    width: 180px;
+    height: 40px;
+    padding: 5px;
+
+    color: #020202;
+
+}
+
+.TwoImg {
+    display: none;
+}
+
+/* Resposive mobile screen */
+
+@media (max-width:480px) {
+    .oneImg {
+        display: none;
+    }
+
+    .TwoImg {
+        display: block;
+    }
+
+    .heroTexts {
+
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heroTextsTwo {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heroTextsThree {
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heroTexts h3 {
+        font-size: 30px;
+        font-weight: lighter;
+
+        user-select: none;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+
+    .heroTextsTwo h3 {
+        font-size: 30px;
+        font-weight: lighter;
+
+        user-select: none;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+
+    .heroTextsThree h3 {
+        font-size: 30px;
+        font-weight: lighter;
+
+        user-select: none;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+
+
+    .heroTexts button {
+        font-size: 20px;
+
+        border: 1px solid black;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 5px;
+        width: 180px;
+        height: 40px;
+        background-color: transparent;
+
+    }
+
+
+    .heroTextsTwo button {
+        font-size: 17px;
+        border: 1px solid rgb(255, 255, 255);
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 5px;
+        width: 164px;
+        height: 37px;
+        color: white;
+        background-color: transparent;
+    }
+
+    .heroTextsThree button {
+        font-size: 20px;
+
+        border: 1px solid rgb(255, 255, 255);
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 5px;
+        width: 180px;
+        height: 40px;
+        background-color: transparent;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
 
 
 /* hero page Two */
