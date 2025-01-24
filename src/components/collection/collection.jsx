@@ -68,7 +68,9 @@ const Collection = () => {
 
 
                 <div className="filterCard">
-                    <Filter />
+                    <div className="filterSection">
+                        <Filter />
+                    </div>
 
                     <CartSec />
 

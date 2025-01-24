@@ -46,7 +46,7 @@ const LogPage = ({ onClose }) => {
 
 
     }
-    
+
 
 
 
@@ -90,11 +90,6 @@ const LogPage = ({ onClose }) => {
         successNotify()
         setCheck(true)
 
-
-        //     successNotify() ? 
-        //    ;
-        //     : 
-
         onClose()
 
 
@@ -129,7 +124,7 @@ const LogPage = ({ onClose }) => {
 
 
 
-            <div ref={modalRef} onClick={closePage} className="loginBackground bac bg-black bg-opacity-25 " >
+            <div ref={modalRef} onClick={closePage} className="loginBackground bg-black bg-opacity-25 " >
 
 
                 <div className="logBg">
@@ -199,10 +194,6 @@ const LogPage = ({ onClose }) => {
                                         <RenderMessage message="Passwords do not match" />
                                     }
 
-
-                                    {/* <div className="logLinks">
-                                        <button onClick={() => setShowReg("Login")}>already a User?</button>
-                                    </div> */}
                                     <div className="loginBtns">
 
                                         <button className=" btn btn-secondary" type="submit"> Sign in</button>

@@ -1,6 +1,5 @@
 import React, { useContext, useState } from 'react'
 
-
 import { IoIosArrowForward, IoIosArrowBack } from 'react-icons/io';
 import Data from '../../assets/product.json';
 
@@ -61,6 +60,15 @@ const CartSection = () => {
 
     return (
         <>
+
+
+
+
+
+
+
+
+
             <div className="allCard">
 
 
@@ -71,12 +79,15 @@ const CartSection = () => {
 
 
                 <div className="cardSection">
+
                     {currentPost.map((product) => (
+
                         <ProductSec key={product.id} products={product} />
 
                     ))}
 
                 </div>
+
 
                 <Pagination totalPost={products.length} setcurrentPage={setcurrentPage} postPerPage={postPerPage} />
 
@@ -87,3 +98,6 @@ const CartSection = () => {
 }
 
 export default CartSection;
+
+
+

@@ -83,3 +83,84 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width:480px) {
+    .emptyMsg {
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cartDetails {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .cartSec {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        border: 1px solid black;
+    }
+
+    .cartImg {
+        width: 50px;
+    }
+
+    .brandName, .brandPrice {
+        width: 50px;
+
+    }
+
+    .brandName, .brandPrice {
+        width: 50px;
+    }
+
+    .brandName h1, .brandPrice h1 {
+        font-size: 13px;
+        margin-bottom: 0rem;
+    }
+
+    .totalSec h1 {
+        font-size: 20px;
+    }
+
+    .continue {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding-top: 20px;
+    }
+
+    .continueBtn button {
+        width: 136px;
+        height: 49px;
+        background-color: #4f23eae5;
+        color: #ffffff;
+        border: none;
+        border-radius: 17px;
+        -webkit-border-radius: 17px;
+        -moz-border-radius: 17px;
+        -ms-border-radius: 17px;
+        -o-border-radius: 17px;
+        font-size: 21px;
+        font-weight: bold;
+        margin: 0px;
+        cursor: pointer;
+    }
+
+    .addCartSec {
+        width: 100%;
+        margin-top: 30px;
+        display: grid;
+        gap: 40px;
+    }
+}

@@ -4,10 +4,13 @@ import './cart.css';
 import { MdDelete } from "react-icons/md";
 import { cartContext } from '../../connect';
 import { Link } from 'react-router-dom';
+import AdressPage from '../landingPage/address.jsx';
+import LogPage from "../landingPage/logPage.jsx";
+import UserPage from '../userAccount/UserPage.jsx'
 const Cart = () => {
 
     var [total, setTotal] = useState(0);
-    const { cart, setCart, products, brandImage } = useContext(cartContext);
+    const { visible, setvisible, adressPage, setAdressPage, check, cart, setCart, products, brandImage } = useContext(cartContext);
     const removeCart = (id) => {
         setCart(cart.filter((c) => c.id !== id));
     }
@@ -61,7 +64,13 @@ const Cart = () => {
                                 <h1>Total Amount:${total}</h1>
                             </div>
                             <div className="continueBtn">
-                                <Link to={'/loginPage'}><button>Continue</button></Link>
+
+                                {check != false ?
+                                    <Link to='/UserAccount' > <button onClick={() => setAdressPage(true)}>Next</button></Link>
+                                    :
+                                    <button onClick={() => setvisible(true)}>Continue</button>
+                                }
+
                             </div>
                         </div>
                             : ""
@@ -69,6 +78,15 @@ const Cart = () => {
                 </div>
 
             </div>
+
+
+
+
+            {visible &&
+                <LogPage onClose={() => setvisible(false)} />
+            }
+
+
 
         </>
     )

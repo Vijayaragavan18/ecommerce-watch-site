@@ -1,10 +1,10 @@
 import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 import BgOne from '../../assets/productImage/bg1.png';
 import BgTwo from '../../assets/productImage/bg2.jpg';
 import BgThree from '../../assets/productImage/bgOne.png';
-
+import { Link } from 'react-router-dom';
 import MbOne from '../../assets/mobileImg/one.png';
 import MbTwo from '../../assets/mobileImg/two.png';
 import MbThree from '../../assets/mobileImg/three.png';
@@ -81,21 +81,29 @@ The 'Wonders Of India'
                 pagination={{
                     clickable: true,
                 }}
-                navigation={true}
-                modules={[Autoplay, Pagination, Navigation]}
+                // navigation={true}
+                modules={[Autoplay, Pagination]}
                 className="mySwiper"
             >
                 <SwiperSlide>
                     <div className="slideShow">
+
                         <div className="heroImg">
                             <img src={BgOne} className="oneImg" alt="bgImage" />
                             <img src={MbThree} className="TwoImg" alt="bgImage" />
                             <div className="heroTexts">
                                 <h3><span style={{ fontWeight: "bold" }}> Dont ever trust</span> a man who wears
                                     <br /> his watch on the <span style={styleCss}>wrong wrist </span></h3>
-                                <a href="./"><button >LEARN MORE</button></a>
+                                <Link to='/collection'><button >LEARN MORE</button></Link>
+                            </div>
+
+                            <div className="heroTextsHide">
+                                <h3> Dont ever trust a man who wears
+                                    his watch on thewrong wrist </h3>
+                                <Link to='/collection'><button >LEARN MORE</button></Link>
                             </div>
                         </div>
+
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -104,7 +112,10 @@ The 'Wonders Of India'
                             <img src={BgTwo} className="oneImg" alt="bgImage" />
                             <img src={MbOne} className="TwoImg" alt="bgImage" />
                             <div className="heroTextsTwo">
-                                <a href="./"><button >LEARN MORE</button></a>
+                                <Link to='/collection'><button >LEARN MORE</button></Link>
+                            </div>
+                            <div className="heroTextsHide">
+                                <Link to='/collection'><button >LEARN MORE</button></Link>
                             </div>
                         </div>
 
@@ -117,7 +128,11 @@ The 'Wonders Of India'
                             <img src={MbTwo} className="TwoImg" alt="bgImage" />
                             <div className="heroTextsThree">
                                 <h3>No wonder, it's a wonder</h3>
-                                <a href="./"><button >LEARN MORE</button></a>
+                                <Link to='/collection'><button >LEARN MORE</button></Link>
+                            </div>
+                            <div className="heroTextsThreeHide">
+                                <h3>No wonder, it's a wonder</h3>
+                                <Link to='/collection'><button >LEARN MORE</button></Link>
                             </div>
                         </div>
 

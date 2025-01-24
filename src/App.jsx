@@ -8,7 +8,7 @@ import Third from './components/landingPage/heroPageThree';
 import Four from './components/landingPage/heroPageFour';
 import Five from './components/landingPage/heroPageFive';
 import Six from './components/landingPage/heroPageSix';
-
+import './components/css/hero.css';
 
 const App = () => {
 

@@ -197,6 +197,7 @@
     font-weight: bold;
     color: #fff;
     user-select: none;
+    margin-bottom: 0px;
 }
 
 .addCartText {
@@ -281,7 +282,19 @@
     align-items: center;
     justify-content: space-around;
 
+
 }
+
+
+
+
+
+
+
+
+
+
+
 
 .allCard {
     width: 1084px;
@@ -293,10 +306,10 @@
 
 }
 
-.filterDetails {
+/* .filterDetails {
     width: 400px;
 
-}
+} */
 
 .pagination {
 
@@ -327,4 +340,121 @@
     height: 257px;
     padding-bottom: 40px;
     margin-top: 50px;
+}
+
+@media (max-width:480px) {
+
+
+    .quotes h1 {
+        font-size: 15px;
+        color: #0d8491;
+        letter-spacing: 20%;
+        font-weight: lighter;
+    }
+
+    .bannerHead h1 {
+        font-size: 24px;
+        color: #fff;
+        font-weight: normal;
+        letter-spacing: 20%;
+    }
+
+
+    .allServices {
+        display: none;
+    }
+
+    .bannerImg {
+        width: 100%;
+        height: 186px;
+        position: relative;
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bannerHead {
+        position: absolute;
+        z-index: 1;
+        margin-bottom: 0px;
+    }
+
+    .allCard {
+        width: 1084px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .filterSection {
+        display: none;
+    }
+
+
+    .cardSection {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .cardImage {
+        width: 135px;
+        height: auto;
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+        position: relative;
+        display: flex;
+        align-items: self-start;
+        justify-content: end;
+    }
+
+    .cardText h1 {
+        font-size: 15px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: 10%;
+    }
+
+    .cardDetails {
+        display: grid;
+        align-items: center;
+        height: 280px;
+        gap: 22px;
+        margin-bottom: 83px;
+    }
+
+    .pagination {
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .pagination:nth-child(1) {
+        margin-bottom: 30px;
+    }
+
+
+
+    .serviceSection {
+        padding-bottom: 60px;
+    }
+
+    .bannerTwo {
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+        margin-top: 50px;
+    }
+
+
+
+
+
 }

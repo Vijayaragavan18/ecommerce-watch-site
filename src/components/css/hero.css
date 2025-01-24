@@ -73,7 +73,7 @@
 .heroTextsThree {
     position: absolute;
 
-    /* right: 170px; */
+    right: 170px;
 
     z-index: 2;
     -webkit-user-select: none;
@@ -134,158 +134,13 @@
     display: none;
 }
 
-/* Resposive mobile screen */
-
-@media (max-width:480px) {
-    .oneImg {
-        display: none;
-    }
-
-    .TwoImg {
-        display: block;
-    }
-
-    .heroTexts {
-
-        left: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .heroTextsTwo {
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .heroTextsThree {
-
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .heroTexts h3 {
-        font-size: 30px;
-        font-weight: lighter;
-
-        user-select: none;
-        color: rgb(255, 255, 255);
-        text-align: center;
-    }
-
-    .heroTextsTwo h3 {
-        font-size: 30px;
-        font-weight: lighter;
-
-        user-select: none;
-        color: rgb(255, 255, 255);
-        text-align: center;
-    }
-
-    .heroTextsThree h3 {
-        font-size: 30px;
-        font-weight: lighter;
-
-        user-select: none;
-        color: rgb(255, 255, 255);
-        text-align: center;
-    }
-
-
-    .heroTexts button {
-        font-size: 20px;
-
-        border: 1px solid black;
-        font-weight: bold;
-        cursor: pointer;
-        margin-top: 5px;
-        width: 180px;
-        height: 40px;
-        background-color: transparent;
-
-    }
-
-
-    .heroTextsTwo button {
-        font-size: 17px;
-        border: 1px solid rgb(255, 255, 255);
-        font-weight: bold;
-        cursor: pointer;
-        margin-top: 5px;
-        width: 164px;
-        height: 37px;
-        color: white;
-        background-color: transparent;
-    }
-
-    .heroTextsThree button {
-        font-size: 20px;
-
-        border: 1px solid rgb(255, 255, 255);
-        font-weight: bold;
-        cursor: pointer;
-        margin-top: 5px;
-        width: 180px;
-        height: 40px;
-        background-color: transparent;
-
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
+.heroTextsHide {
+    display: none;
 
 }
 
-
-
-
-
-
-
-
-
-/* hero page Two */
-.cardImg {
-    width: 400px;
-    height: 500px;
-    background-color: brown;
-    position: relative;
-    display: flex;
-    align-items: end;
-    justify-content: center;
-}
-
-img {
-    width: 100%;
-    height: 100%;
-}
-
-.cardName {
-    position: absolute;
-    bottom: 50px;
-
-}
-
-.cardName h3 {
-    color: white;
-    font-size: 40px;
-    text-align: center;
-    font-weight: lighter;
-    user-select: none;
+.heroTextsThreeHide {
+    display: none;
 }
 
 
@@ -301,20 +156,12 @@ img {
     margin: 70px 0px 90px 0px;
 }
 
-.vj {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 95%;
-}
-
-
-.brandCardSection {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    overflow: hidden;
+.cardName h3 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: lighter;
+    user-select: none;
 }
 
 .arrivalHead h3:nth-child(1) {
@@ -342,31 +189,6 @@ img {
     margin: 70px 0px 0px 0px;
 }
 
-.arrivalCard {
-    width: 340px;
-    height: 349px;
-    background-color: brown;
-    position: relative;
-    display: flex;
-    align-items: end;
-    justify-content: center;
-}
-
-.arrivalCard a {
-    position: absolute;
-    bottom: 30px;
-}
-
-.arrivalBtn {
-    width: 140px;
-    height: 40px;
-    font-size: 15px;
-    border: 1px solid #FFFFFF;
-    background-color: transparent;
-    color: #FFFFFF;
-
-}
-
 .arrivalCardSection {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -376,12 +198,20 @@ img {
 
 }
 
-.arrivalCardSection .arrivalCard:nth-child(2) {
-    margin-top: 4rem;
+.arrivalCardSectionTwo {
+    display: none;
+
 }
 
-.arrivalCardSection .arrivalCard:nth-child(5) {
-    margin-top: 4rem;
+
+.arrivalCard {
+    width: 340px;
+    height: 349px;
+    background-color: brown;
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
 }
 
 .collectionHead h2:nth-child(1) {
@@ -406,9 +236,238 @@ img {
     margin: 90px 0px 90px 0px;
 }
 
+.watchSection {
+    display: none;
+}
+
+
+.exploreAllCards {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 0px 50px 0px 50px;
+    gap: 40px;
+
+}
+
+
+
+
+.cardImg {
+
+    background-color: brown;
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+
+.mbScreen {
+    display: none;
+}
+
+.achievementSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 70px;
+
+}
+
+
+.lapScreenSize {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.achieveDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.achievementText {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: self-start;
+}
+
+.partnerHead h1 {
+    font-size: 48px;
+    letter-spacing: 30%;
+    color: #D9D9D9;
+    text-align: center;
+    user-select: none;
+}
+
+.partnerHead {
+    margin: 110px 0px 0px 0px;
+}
+
+
+.partnerBannerImg {
+    width: 1300px;
+    background-color: #f3f1e7;
+    height: 240px;
+
+}
+
+.partnerDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+}
+
+.footerDetails {
+    width: 560px;
+}
+
+
+.footerSecOne {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+    margin-bottom: 20px;
+}
+
+.copyRightTag .underLine {
+    width: 1300px;
+    border: 1px solid white;
+}
+
+.footerDetails p {
+    font-size: 20px;
+    font-weight: normal;
+    color: #D9D9D9;
+    text-align: justify;
+}
+
+.footerSection {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #020202;
+
+}
+
+.footerNav {
+    display: flex;
+    gap: 40px;
+    user-select: none;
+}
+
+.footerNav a {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+.footerDetails h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #D9D9D9;
+
+}
+
+
+
+/* Resposive mobile screen */
+
+
+
+
+
+
+
+
+
+
+
+/* hero page Two */
+
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.cardName {
+    position: absolute;
+    bottom: 50px;
+
+}
+
+
+
+
+
+
+
+.vj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+}
+
+
+.brandCardSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+.arrivalCard a {
+    position: absolute;
+    bottom: 30px;
+}
+
+.arrivalBtn {
+    width: 140px;
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+
+}
+
+
+
+.arrivalCardSection .arrivalCard:nth-child(2) {
+    margin-top: 4rem;
+}
+
+.arrivalCardSection .arrivalCard:nth-child(5) {
+    margin-top: 4rem;
+}
+
+
+
+
 .exploreImage {
     width: 275px;
-    height: 340px;
+
 }
 
 .exploreSec {
@@ -439,13 +498,7 @@ img {
     color: #FFFFFF;
 }
 
-.exploreAllCards {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    margin: 0px 50px 0px 50px;
-    gap: 40px;
 
-}
 
 .achievementImage {
     width: 560px;
@@ -472,13 +525,7 @@ img {
     user-select: none;
 }
 
-.achievementSection {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 
-
-}
 
 .sectionOne {
     width: 580px;
@@ -487,18 +534,8 @@ img {
     gap: 100px;
 }
 
-.achieveDetails {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
 
-.achievementText {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    align-items: self-start;
-}
+
 
 .achievementText a button {
     color: 20px;
@@ -513,24 +550,9 @@ img {
     margin-top: 8rem;
 }
 
-.partnerHead h1 {
-    font-size: 48px;
-    letter-spacing: 30%;
-    color: #D9D9D9;
-    text-align: center;
-    user-select: none;
-}
 
-.partnerHead {
-    margin: 110px 0px 90px 0px;
-}
 
-.partnerBannerImg {
-    width: 1300px;
-    background-color: #f3f1e7;
-    height: 240px;
 
-}
 
 .partnerBanner {
     display: flex;
@@ -538,26 +560,11 @@ img {
     justify-content: center;
 }
 
-.partnerDetails {
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
 
-}
 
-.footerDetails h1 {
-    font-size: 36px;
-    font-weight: bold;
-    color: #D9D9D9;
 
-}
 
-.footerDetails p {
-    font-size: 20px;
-    font-weight: normal;
-    color: #D9D9D9;
-    text-align: justify;
-}
+
 
 .copyRightTag h1 {
     color: #D9D9D9;
@@ -565,45 +572,12 @@ img {
     font-weight: normal;
 }
 
-.footerSection {
-    width: 100%;
-    height: 350px;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    flex-direction: column;
-    gap: 30px;
-    background-color: #020202;
 
-}
 
-.copyRightTag .underLine {
-    width: 1300px;
-    border: 1px solid white;
-}
 
-.footerSecOne {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 250px;
-    margin-bottom: 20px;
-}
 
-.footerDetails {
-    width: 560px;
-}
 
-.footerNav {
-    display: flex;
-    gap: 40px;
-    user-select: none;
-}
 
-.footerNav a {
-    font-size: 16px;
-    font-weight: normal;
-}
 
 .copyRightTag {
     display: flex;
@@ -621,6 +595,11 @@ img {
 
     width: 100%;
 }
+
+a {
+    color: #fdc646;
+}
+
 
 /* .brandImage h1 {
     user-select: none;
@@ -656,4 +635,474 @@ img {
     display: flex;
     gap: 120px;
     margin-left: 79px;
+}
+
+
+
+@media (max-width:480px) {
+    .oneImg {
+        display: none;
+    }
+
+    .TwoImg {
+        display: block;
+    }
+
+    .heroTexts {
+
+        display: none;
+
+    }
+
+    .heroTextsTwo {
+        display: none;
+    }
+
+    .heroTextsThree {
+        display: none;
+    }
+
+    .heroTextsThreeHide {
+        position: absolute;
+        z-index: 2;
+        -webkit-user-select: none;
+        user-select: none;
+        display: flex;
+        flex-direction: column;
+        text-align: self-start;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .heroTexts h3 {
+        font-size: 30px;
+        font-weight: lighter;
+
+        user-select: none;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+
+
+
+    .heroTextsThree h3 {
+        font-size: 30px;
+        font-weight: lighter;
+        user-select: none;
+        color: rgb(255, 255, 255);
+
+    }
+
+
+    .heroTexts button {
+        font-size: 20px;
+
+        border: 1px solid black;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 5px;
+        width: 180px;
+        height: 40px;
+        background-color: transparent;
+
+    }
+
+
+
+
+    .heroTextsThreeHide button {
+        font-size: 15px;
+        border: 1px solid rgb(255, 255, 255);
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 5px;
+        width: 130px;
+        height: 40px;
+        background-color: transparent;
+        color: bisque;
+    }
+
+
+
+    .heroTextsHide {
+        display: flex;
+        position: absolute;
+        z-index: 2;
+
+
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .heroImg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .heroTextsHide h3 {
+        font-size: 53px;
+        font-weight: lighter;
+        -webkit-user-select: none;
+        user-select: none;
+        color: rgb(243, 241, 231);
+        text-align: start;
+        line-height: 1.5;
+    }
+
+    .heroTextsHide button {
+        font-size: 15px;
+        border: 1px solid rgb(255, 255, 255);
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 5px;
+        width: 130px;
+        height: 40px;
+        background-color: transparent;
+        color: white;
+    }
+
+    .jewelsImage:hover:before {
+        opacity: 1;
+    }
+
+    /* .cardImg {
+        width: 350px;
+    } */
+
+    .cardTwoHead h3 {
+        text-align: center;
+        font-size: 24px;
+        color: white;
+        letter-spacing: 29%;
+        user-select: none;
+    }
+
+    .cardTwoHead {
+        margin: 60px 0px 60px 0px;
+    }
+
+    .cardName h3 {
+        color: white;
+        font-size: 24px;
+        text-align: center;
+        font-weight: lighter;
+        user-select: none;
+    }
+
+    .arrivalHead h3:nth-child(1) {
+        color: #f3f1e712;
+        font-size: 50px;
+        text-align: center;
+        position: relative;
+        user-select: none;
+        margin-bottom: 0px;
+    }
+
+    .arrivalHead h3:nth-child(2) {
+        color: aliceblue;
+        position: absolute;
+        font-size: 20px;
+        letter-spacing: 30%;
+        user-select: none;
+        margin-bottom: 0px;
+    }
+
+    .arrivalHead {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 60px 0px 65px 0px;
+    }
+
+
+    .arrivalCardSection {
+        display: none;
+
+    }
+
+    .arrivalCardSectionTwo {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0px 110px 0px 110px;
+
+    }
+
+    .arrivalCard {
+        width: 270px;
+        height: 275px;
+        background-color: brown;
+        position: relative;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+    }
+
+    .collectionHead {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+        margin: 65px 0px 65px 0px;
+    }
+
+    .collectionHead h2:nth-child(1) {
+        font-size: 14px;
+        color: #f3f1e73d;
+        letter-spacing: 30%;
+    }
+
+    .collectionHead h2:nth-child(2) {
+        font-size: 24px;
+        color: #f3f1e7;
+        letter-spacing: 30%;
+        -webkit-user-select: none;
+        user-select: none;
+        text-align: center;
+    }
+
+    .watchSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        overflow: hidden;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .exploreAllCards {
+        display: none;
+
+    }
+
+    .exploreTextMb {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .exploreTextMb h2 {
+        font-size: 16px;
+        color: white;
+    }
+
+    .exploreTextMb h3 {
+        font-size: 13px;
+        color: white;
+    }
+
+    .cardImgOne {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    .cardImgTwo {
+        background-color: brown;
+        position: relative;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        width: 300px;
+
+    }
+
+
+
+    .cardImgTwo::before {
+        content: '';
+        background-color: #00000057;
+        width: 300px;
+        height: 380px;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        opacity: 0;
+        transition: 0.5s all;
+        border-radius: 7px;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -ms-transition: 0.5s all;
+        -o-transition: 0.5s all;
+    }
+
+    .cardImgTwo:hover:before {
+        opacity: 1;
+    }
+
+
+    .cardNameOne {
+        position: absolute;
+        bottom: 30px;
+
+    }
+
+    .cardImgTwo .achievementText {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cardImgTwo .achievementText .achievementText {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .achievementText h5 {
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .achievementText h1 {
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .achievementText p {
+        margin-top: 0;
+        margin-bottom: 0px;
+        font-size: 10px;
+        color: white;
+        text-align: center;
+    }
+
+
+    .mbScreen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px
+    }
+
+    .lapScreenSize {
+        display: none;
+    }
+
+    .cardNameOne .achievementText button {
+        font-size: 15px;
+        border: 1px solid white;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 5px;
+        width: 150px;
+        height: 40px;
+        background-color: transparent;
+    }
+
+    .achieveDetails {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .partnerHead h1 {
+        font-size: 24px;
+        letter-spacing: 30%;
+        color: #D9D9D9;
+        text-align: center;
+        user-select: none;
+    }
+
+    .partnerHead {
+        margin: 70px 0px 0px 0px;
+    }
+
+    .partnerBannerImg {
+        width: 100%;
+        background-color: #f3f1e7;
+        height: 100%;
+
+    }
+
+    .partnerDetails {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+    }
+
+    .footerDetails {
+        width: fit-content;
+    }
+
+    .footerSecOne {
+        display: flex;
+        margin-bottom: 0px;
+        width: 300px;
+        gap: 20px;
+        flex-direction: column;
+
+    }
+
+    .copyRightTag .underLine {
+        width: 240px;
+        border: 1px solid white;
+    }
+
+    .footerDetails p {
+        font-size: 15px;
+        font-weight: normal;
+        color: #D9D9D9;
+        text-align: justify;
+    }
+
+
+    .footerSection {
+        width: 100%;
+        height: 320px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-direction: column;
+        gap: 30px;
+        background-color: #020202;
+
+    }
+
+    .footerNav {
+        display: flex;
+        gap: 40px;
+        -webkit-user-select: none;
+        user-select: none;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footerDetails h1 {
+        font-size: 18px;
+        font-weight: bold;
+        color: #D9D9D9;
+
+    }
+
+    .copyRightTag {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 0px;
+    }
+
 }

@@ -15,9 +15,7 @@ const footer = () => {
 
                     <div className="footerDetails">
                         <h1>CAPGS</h1>
-                        <p>The IMAX theatre is scheduled to open in the spring of 2022.
-                            In a press release, Imax Corporation said the new theatre
-                            would feature </p>
+                        <p>The perfect  watch for themselves and their loved ones while protecting them from  rampant malpractices in India such as smuggled, fake, and refurbished  watches. </p>
                     </div>
 
                     <div className="footerNav">
@@ -25,7 +23,7 @@ const footer = () => {
                         <Link to="/">HOME</Link>
 
                         <Link to="/Collection">COLLECTION</Link>
-                        <Link to="/About">About</Link>
+                        <Link to="/About">ABOUT</Link>
 
                     </div>
                 </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
+import { motion } from 'framer-motion';
 import Rolex from '../../images/Layer2.png';
 import Omega from '../../images/Layer3.png';
 import Richard from '../../images/Layer5.png';
@@ -7,11 +8,15 @@ import Jacob from '../../images/Layer4.png';
 import Casio from '../../images/Layer6.png';
 import Timex from '../../images/Layer7.png';
 import Eight from '../../images/Layer8.png';
+
 import HeroBanner from '../../images/heroBanner.png';
 const heroPageSix = () => {
     return (
         <>
-            <div className="partnerDetails">
+            <motion.div
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 1 }} className="partnerDetails">
                 <div className="partnerHead">
                     <h1>OUR PARTNERS</h1>
                 </div>
@@ -70,7 +75,7 @@ const heroPageSix = () => {
 
 
 
-            </div >
+            </motion.div >
 
         </>
     )

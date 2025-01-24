@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/style.css';
 import AboutImg from "../../images/about.png";
+import AboutImgMb from '../../assets/mobileImg/aboutMobile.png';
 import { IoMdMail, IoLogoWhatsapp, IoMdContact } from "react-icons/io";
 function about() {
 
@@ -22,7 +23,8 @@ function about() {
             <section>
 
                 <div className="aboutImg">
-                    <img src={AboutImg} alt="aboutImage" />
+                    <img className='aboutImage' src={AboutImg} alt="aboutImage" />
+                    <img className='aboutImageMb' src={AboutImgMb} alt="aboutImage" />
 
 
                     <div className="aboutTextOne">

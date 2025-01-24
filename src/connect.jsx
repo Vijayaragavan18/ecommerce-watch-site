@@ -12,6 +12,8 @@ import App from './App';
 import Data from './assets/product.json';
 import ViewCart from './components/landingPage/ViewCartPage.jsx';
 
+
+
 import Brand1 from './assets/productImage/brand.png';
 import Brand2 from './assets/productImage/brand1.png';
 import Brand3 from './assets/productImage/brand2.png';
@@ -54,7 +56,7 @@ function Connect() {
     const [products] = useState(Data);
     const [visible, setvisible] = useState(false);
     const [showReg, setShowReg] = useState(false);
-
+    const [adressPage, setAdressPage] = useState(false)
     const [check, setCheck] = useState(false)
 
 
@@ -73,7 +75,7 @@ function Connect() {
     // ), 7000)
     return (
 
-        <cartContext.Provider value={{ check, setCheck, cart, setCart, products, brandImage, visible, dataValue, setvisible, input, setinput, showReg, setShowReg }}>
+        <cartContext.Provider value={{ adressPage, setAdressPage, check, setCheck, cart, setCart, products, brandImage, visible, dataValue, setvisible, input, setinput, showReg, setShowReg }}>
 
 
 
