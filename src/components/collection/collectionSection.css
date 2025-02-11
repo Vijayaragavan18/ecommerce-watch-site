@@ -137,11 +137,15 @@
     font-size: 16px;
     color: #fff;
     font-weight: 400;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
 }
 
 .FilterSec .filterSteps {
     display: flex;
-    align-items: self-start;
+    align-items: center;
     gap: 10px;
     margin-left: 10px;
 
@@ -342,6 +346,24 @@
     margin-top: 50px;
 }
 
+
+.filterIconMb {
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: end;
+    padding-right: 30px;
+    color: white;
+    font-size: 9px;
+}
+
+/* .filterIconMbSiz {
+    width: 30%;
+} */
+.menuSec2 {
+    display: none;
+}
+
 @media (max-width:480px) {
 
 
@@ -443,7 +465,7 @@
 
 
     .serviceSection {
-        padding-bottom: 60px;
+        padding-bottom: 30px;
     }
 
     .bannerTwo {
@@ -453,8 +475,139 @@
         margin-top: 50px;
     }
 
+    .filterIconMb {
+        display: flex;
+    }
+
+    .adSection {
+        display: none;
+    }
+
+    .filterHead {
+        display: none;
+    }
+
+
+    .allFilters {
+
+        gap: 0px;
+    }
+
+    .allFilters .filterProduct {
+        display: flex;
+        gap: 0px;
+        width: 325px;
+        align-items: baseline;
+    }
+
+
+    .FilterSec {
 
 
 
 
+
+        gap: 15px;
+    }
+
+    .menuSec2 {
+
+        width: 100%;
+        display: flex;
+        justify-content: end;
+
+
+
+    }
+
+    .FilterSec {
+        gap: 0px;
+    }
+
+    .FilterSec .filterSteps {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-left: 0px;
+
+    }
+
+
+
+}
+
+
+
+.sidebar-title {
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.sidebar-items {
+    margin-top: 20px;
+}
+
+.sidebar-label-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.sidebar-label-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.all {
+    background: linear-gradient(blue, crimson);
+}
+
+.sidebar-label-container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+.sidebar-label-container input:checked~.checkmark {
+    background-color: #2196f3;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.sidebar-label-container input:checked~.checkmark:after {
+    display: block;
+}
+
+.sidebar-label-container .checkmark:after {
+    top: 6.4px;
+    left: 6.4px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: white;
+}
+
+.line {
+    margin-top: 3rem;
+    border-color: #f7f7f7;
 }

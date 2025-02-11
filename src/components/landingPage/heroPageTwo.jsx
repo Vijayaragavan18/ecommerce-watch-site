@@ -34,9 +34,10 @@ const heroPageTwo = () => {
 
 
             <motion.div
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 1 }}
+                    initial={{ opacity: 0, translateY: "10%" }}
+
+                    whileInView={{ opacity: 1, translateY: 0 }}
+                    transition={{ duration: 1 }}
 
                 className="newBrandSection ">
                 <div className="cardTwoHead">

@@ -22,7 +22,7 @@ import { cartContext } from '../../connect.jsx';
 //jsx must have only one element
 
 
-const CartSection = () => {
+const CartSection = ({ result }) => {
 
     // const brandImage = {
 
@@ -40,14 +40,14 @@ const CartSection = () => {
     //     "brand12": Brand12,
     // }
 
-    const { products } = useContext(cartContext);
+    // const { products } = useContext(cartContext);
 
     const [currentPage, setcurrentPage] = useState(1);
     const [postPerPage, setpostPerPage] = useState(12);
 
     const lastPage = currentPage * postPerPage;
     const firstPage = lastPage - postPerPage;
-    const currentPost = products.slice(firstPage, lastPage);
+    const currentPost = result.slice(firstPage, lastPage);
     // let pages = [];
     // let totalPost = products.length;
     // for (let i = 1; i <= Math.ceil(totalPost / postPerPage); i++) {
@@ -73,7 +73,7 @@ const CartSection = () => {
 
 
 
-                <Pagination totalPost={products.length} setcurrentPage={setcurrentPage} postPerPage={postPerPage} />
+                <Pagination totalPost={result.length} setcurrentPage={setcurrentPage} postPerPage={postPerPage} />
 
 
 
@@ -89,7 +89,7 @@ const CartSection = () => {
                 </div>
 
 
-                <Pagination totalPost={products.length} setcurrentPage={setcurrentPage} postPerPage={postPerPage} />
+                <Pagination totalPost={result.length} setcurrentPage={setcurrentPage} postPerPage={postPerPage} />
 
             </div>
         </>

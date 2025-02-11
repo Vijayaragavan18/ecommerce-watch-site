@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-
+import { motion } from 'framer-motion'
 import '../collection/collectionSection.css';
 import { cartContext } from '../../connect';
 // import ProductImage from './productImage';
@@ -33,7 +33,8 @@ const ProductCart = ({ products }) => {
 
 
                 <div className="productContainer" >
-                    <div className="cardDetails" key={products.id}>
+                    <motion.div
+                        whileHover={{ scale: 1.1 }} className="cardDetails" key={products.id}>
                         <div className="cardImage" >
 
                             <Link to={`/viewCart/${products.id}`} >  <img src={brandImage[products.image]} alt="brandImage" /></Link>
@@ -52,7 +53,7 @@ const ProductCart = ({ products }) => {
                             <h1>{productName}</h1>
                             <p>{products.price_formatted}</p>
                         </div>
-                    </div >
+                    </motion.div >
                 </div>
 
             </div>

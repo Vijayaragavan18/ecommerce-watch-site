@@ -28,18 +28,20 @@ const heroPageThree = () => {
         <>
 
             <motion.div
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 1 }}
+                    initial={{ opacity: 0, translateY: "10%" }}
+
+                    whileInView={{ opacity: 1, translateY: 0 }}
+                    transition={{ duration: 1 }}
                 className="arrivalHead">
                 <h3>Latest Arrival</h3>
                 <h3>LATEST ARRIVAL</h3>
             </motion.div>
 
             <motion.div
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 1 }}
+                    initial={{ opacity: 0, translateY: "10%" }}
+
+                    whileInView={{ opacity: 1, translateY: 0 }}
+                    transition={{ duration: 1 }}
                 className="arrivalCardSection">
 
                 <motion.div
@@ -90,9 +92,10 @@ const heroPageThree = () => {
 
             </motion.div>
             <motion.div
-                initial={{ opacity: 0, scale: 0.8 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.7 }}
+                    initial={{ opacity: 0, translateY: "10%" }}
+
+                    whileInView={{ opacity: 1, translateY: 0 }}
+                    transition={{ duration: 1 }}
                 className="arrivalCardSectionTwo">
 
 

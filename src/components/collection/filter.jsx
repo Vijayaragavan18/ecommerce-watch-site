@@ -1,14 +1,25 @@
 import React from 'react'
 import { FaFilter } from "react-icons/fa6";
+import { useState } from 'react';
 import './collectionSection.css';
 import AdImage from './images/adBanner.png';
-const filter = () => {
+import Input from './Input.jsx';
+
+const Filter = ({ handleChange }) => {
+
+
+
 
     const filterStyle = {
         width: "42px",
         height: "42px",
         color: "#fff",
     }
+
+
+    // const [nameCheck, setNameCheck] = useState("");
+
+
 
     return (
         <>
@@ -21,43 +32,93 @@ const filter = () => {
                             <FaFilter style={filterStyle} />
                         </div>
                     </div>
+
+
+                    <div className="filterSteps">
+                        <label className="sidebar-label-container">
+                            <input onChange={handleChange} type="radio" value="" name="test" />
+                            <span className="checkmark"></span><h3>All</h3>
+                        </label>
+                    </div>
+
+
                     <div className="filterProduct">
                         <div className="FilterSec">
                             <h1>Gender</h1>
-                            <div className="filterSteps">
-                                <input id='Male' type="checkbox" />
-                                <label htmlFor="Male">Male</label>
-                            </div>
-                            <div className="filterSteps">
-                                <input id="Female" type="checkbox" />
-                                <label htmlFor="Female">Female</label>
-                            </div>
+                            <Input handleChange={handleChange}
+                                value="MEN"
+                                title='Male'
+                                name='test'
+
+                            />
+                            <Input handleChange={handleChange}
+                                value="WOMEN"
+                                title='FeMale'
+                                name='test'
+
+                            />
+                            <Input handleChange={handleChange}
+                                value="BOTH"
+                                title='Both'
+                                name='test'
+
+                            />
+                            <Input handleChange={handleChange}
+                                value="kids"
+                                title='kids'
+                                name='test'
+
+                            />
+
                         </div>
                         <div className="FilterSec">
-                            <h1>Brands</h1>
-                            <div className="filterSteps">
-                                <input id='Rolex' type="checkbox" />
-                                <label htmlFor="Rolex">Rolex</label>
-                            </div>
-                            <div className="filterSteps">
-                                <input id="Omega" type="checkbox" />
-                                <label htmlFor="Omega">Omega</label>
-                            </div>
+                            <h1>Top Brands</h1>
+                            <Input handleChange={handleChange}
+                                value="Rolex"
+                                title='Rolex'
+                                name='test'
+
+                            />
+                            <Input handleChange={handleChange}
+                                value="Omega"
+                                title='Omega'
+                                name='test'
+
+                            />
+
                         </div>
                         <div className="FilterSec">
                             <h1>Price</h1>
-                            <div className="filterSteps">
-                                <input id='500' type="checkbox" />
-                                <label htmlFor="500">500-1000</label>
-                            </div>
-                            <div className="filterSteps">
-                                <input id="3000" type="checkbox" />
-                                <label htmlFor="3000">1000-3000</label>
-                            </div>
-                            <div className="filterSteps">
-                                <input id="4000" type="checkbox" />
-                                <label htmlFor="4000">4000-8000</label>
-                            </div>
+                            <Input handleChange={handleChange}
+                                value={1}
+                                title="below 1000"
+                                name='test'
+
+                            />
+                            <Input handleChange={handleChange}
+                                value={2}
+                                title="1000-5000"
+                                name='test'
+
+                            />
+                            <Input handleChange={handleChange}
+                                value={3}
+                                title='5000-10000'
+                                name='test'
+
+                            />
+                            <Input handleChange={handleChange}
+                                value={4}
+                                title='10000-20000'
+                                name='test'
+
+                            />
+                            <Input handleChange={handleChange}
+                                value={5}
+                                title='20000 Above'
+                                name='test'
+
+                            />
                         </div>
                     </div>
                     <div className="adSection">
@@ -74,4 +135,4 @@ const filter = () => {
     )
 }
 
-export default filter;
+export default Filter;

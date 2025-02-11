@@ -1,0 +1,19 @@
+.userData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+}
+
+.success_note {
+    text-align: center;
+}
+
+.afterNote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}

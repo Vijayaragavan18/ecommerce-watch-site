@@ -70,9 +70,6 @@ function Connect() {
     const [input, setinput] = useState(dataValue);
 
 
-    // setTimeout(() => (
-    //     setvisible(true)
-    // ), 7000)
     return (
 
         <cartContext.Provider value={{ adressPage, setAdressPage, check, setCheck, cart, setCart, products, brandImage, visible, dataValue, setvisible, input, setinput, showReg, setShowReg }}>

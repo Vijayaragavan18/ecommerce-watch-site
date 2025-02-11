@@ -20,6 +20,7 @@ import ProductPageHeroMb from '../landingPage/ProductPageMB.jsx';
 
 
 
+
 const HeroPageFour = () => {
 
     const { products } = useContext(cartContext);
@@ -40,15 +41,17 @@ const HeroPageFour = () => {
     return (
         <>
             <motion.div
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
+                initial={{ opacity: 0, translateY: "10%" }}
+
+                whileInView={{ opacity: 1, translateY: 0 }}
                 transition={{ duration: 1 }} className="collectionHead">
                 <h2>EXPLORE COLLECTION</h2>
                 <h2>OUR EXCLUSIVE COLLECTION</h2>
             </motion.div>
             <motion.div
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
+                initial={{ opacity: 0, translateY: "10%" }}
+
+                whileInView={{ opacity: 1, translateY: 0 }}
                 transition={{ duration: 1 }} className="exploreAllCards">
 
                 {currentPost.map((product) => (
@@ -63,8 +66,9 @@ const HeroPageFour = () => {
 
             </motion.div>
             <motion.div
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
+                initial={{ opacity: 0, translateY: "10%" }}
+
+                whileInView={{ opacity: 1, translateY: 0 }}
                 transition={{ duration: 1 }} className="watchSection">
 
 

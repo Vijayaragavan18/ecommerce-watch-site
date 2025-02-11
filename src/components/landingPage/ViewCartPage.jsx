@@ -97,19 +97,7 @@ function ViewCartPage() {
 
                             <div className="productLine">
                             </div>
-                            <div className="productSubImages">
-                                <div className="subImg">
-                                    <img src={ShowOne} alt="showOne" />
-                                </div>
 
-                                <div className="subImg">
-                                    <img src={ShowTwo} alt="showTwo" />
-                                </div>
-
-                                <div className="subImg">
-                                    <img src={ShowThree} alt="showThree" />
-                                </div>
-                            </div>
                             <div className="productAbout">
                                 <h1>Key features</h1>
                                 <p>{item.features}</p>

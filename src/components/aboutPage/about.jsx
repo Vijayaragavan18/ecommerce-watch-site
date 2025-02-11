@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/style.css';
 import AboutImg from "../../images/about.png";
+import { motion } from 'framer-motion'
 import AboutImgMb from '../../assets/mobileImg/aboutMobile.png';
 import { IoMdMail, IoLogoWhatsapp, IoMdContact } from "react-icons/io";
 function about() {
@@ -34,7 +35,11 @@ function about() {
 
 
                 </div>
-                <div className="aboutSec">
+                <motion.div
+                    initial={{ opacity: 0, translateY: "10%" }}
+
+                    whileInView={{ opacity: 1, translateY: 0 }}
+                    transition={{ duration: 1 }} className="aboutSec">
                     <div className="aboutText">
                         <h1>ABOUT US</h1>
                         <p>With more than 60 stores in India and over 60 premium luxury watch  brands, Capg Watches is India's largest chain of luxury watch  boutiques. We take pride in helping our customers choose the perfect  watch for themselves and their loved ones while protecting them from  rampant malpractices in India such as smuggled, fake, and refurbished  watches.</p>
@@ -42,9 +47,12 @@ function about() {
 
                     <h2>6 great reasons to buy a watch from Capg</h2>
 
-                </div>
+                </motion.div>
 
-                <div className="textsection">
+                <motion.div
+                    initial={{ opacity: 0, translateY: "10%" }}
+                    whileInView={{ opacity: 1, translateY: 0 }}
+                    transition={{ duration: 1 }} className="textsection">
                     <div className="captionSection">
 
                         <div className="captionText">
@@ -77,12 +85,15 @@ function about() {
 
                     </div>
 
-                </div>
+                </motion.div>
 
 
 
 
-                <div className="ContactIcon">
+                <motion.div
+                    initial={{ opacity: 0, translateY: "10%" }}
+                    whileInView={{ opacity: 1, translateY: 0 }}
+                    transition={{ duration: 1 }} className="ContactIcon">
                     <h1 className="head">GET IN TOUCH</h1>
                     <div className="contactDetails">
                         <div className="contactSec">
@@ -115,7 +126,7 @@ function about() {
                     </div>
 
 
-                </div>
+                </motion.div>
 
 
 
