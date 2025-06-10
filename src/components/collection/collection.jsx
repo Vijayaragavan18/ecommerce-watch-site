@@ -143,15 +143,13 @@ const Collection = () => {
 
                 }
 
-                <div className="filterCard">
-                    <div className="filterSection">
-                        <Filter handleChange={handleChange} />
+                <div className="filterLayer">
+                    <div className="filterCard">
+                        <div className="filterSection">
+                            <Filter handleChange={handleChange} />
+                        </div>
+                        <CartSec result={result} />
                     </div>
-                    <CartSec result={result} />
-
-
-
-
                 </div>
 
 

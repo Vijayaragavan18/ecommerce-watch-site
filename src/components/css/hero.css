@@ -198,6 +198,12 @@
 
 }
 
+
+
+
+
+
+
 .arrivalCardSectionTwo {
     display: none;
 
@@ -308,9 +314,9 @@
 
 
 .partnerBannerImg {
-    width: 1300px;
+    width: 100%;
     background-color: #f3f1e7;
-    height: 240px;
+
 
 }
 
@@ -334,8 +340,8 @@
     margin-bottom: 20px;
 }
 
-.copyRightTag .underLine {
-    width: 1300px;
+.underLine {
+    width: 100%;
     border: 1px solid white;
 }
 
@@ -361,6 +367,7 @@
 .footerNav {
     display: flex;
     gap: 40px;
+    align-items: center;
     user-select: none;
 }
 
@@ -502,7 +509,7 @@ img {
 
 .achievementImage {
     width: 560px;
-    height: 700px;
+
 }
 
 .sectionOne p {
@@ -1030,7 +1037,7 @@ a {
     .partnerBannerImg {
         width: 100%;
         background-color: #f3f1e7;
-        height: 100%;
+
 
     }
 
@@ -1103,4 +1110,124 @@ a {
         margin-bottom: 0px;
     }
 
+}
+
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .arrivalCardSection {
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0px !important;
+
+    }
+
+
+    .arrivalHead h3:nth-child(1) {
+        color: #f3f1e712;
+        font-size: 100px;
+        text-align: center;
+        position: relative;
+        user-select: none;
+    }
+
+
+
+    .arrivalHead h3:nth-child(2) {
+        color: aliceblue;
+        position: absolute;
+        font-size: 38px;
+        letter-spacing: 30%;
+        user-select: none;
+    }
+
+    .arrivalCard {
+        width: 275px !important;
+        height: 288px !important;
+        background-color: brown;
+        position: relative;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .arrivalCardSection .arrivalCard:nth-child(2) {
+        margin-top: 0rem;
+    }
+
+    .arrivalCardSection .arrivalCard:nth-child(5) {
+        margin-top: 0rem;
+    }
+
+
+    .collectionHead h2:nth-child(1) {
+        font-size: 24px;
+        color: #f3f1e73d;
+        letter-spacing: 30%;
+    }
+
+    .collectionHead h2:nth-child(2) {
+        font-size: 34px;
+        color: #f3f1e7;
+        letter-spacing: 30%;
+        user-select: none;
+    }
+
+    .exploreAllCards {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 0px 50px 0px 50px;
+        gap: 40px;
+
+    }
+
+    .sectionOne {
+        width: 325px;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .achievementImage {
+        width: 321px;
+    }
+
+    .footerDetails {
+        width: 58% !important;
+    }
+
+    .footerNav {
+        display: flex;
+        gap: 10px;
+
+        align-items: center;
+    }
+
+    .footerSecOne {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 0px;
+        margin-bottom: 0px !important;
+    }
+
+    .footerDetails p {
+        font-size: 15px;
+        font-weight: normal;
+        color: #D9D9D9;
+        text-align: justify;
+    }
+
+    .footerSection {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-direction: column;
+        gap: 30px;
+        background-color: #020202;
+    }
 }

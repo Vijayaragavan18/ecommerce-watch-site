@@ -10,19 +10,19 @@ const heroPageFive = () => {
     return (
         <>
             <motion.div
-                    initial={{ opacity: 0, translateY: "10%" }}
+                initial={{ opacity: 0, translateY: "10%" }}
 
-                    whileInView={{ opacity: 1, translateY: 0 }}
-                    transition={{ duration: 1 }} v className="arrivalHead">
+                whileInView={{ opacity: 1, translateY: 0 }}
+                transition={{ duration: 1 }} v className="arrivalHead">
                 <h3>CAPGS</h3>
                 <h3>OUR ACHIEVEMENTS</h3>
             </motion.div>
 
             <motion.div
-                    initial={{ opacity: 0, translateY: "10%" }}
+                initial={{ opacity: 0, translateY: "10%" }}
 
-                    whileInView={{ opacity: 1, translateY: 0 }}
-                    transition={{ duration: 1 }} className="lapScreenSize">
+                whileInView={{ opacity: 1, translateY: 0 }}
+                transition={{ duration: 1 }} className="lapScreenSize">
                 <div className="achievementSection">
                     <div className="sectionOne">
                         <div className="achievementImage"><img src={GirlImg} alt="Achievement" /></div>
@@ -57,10 +57,10 @@ const heroPageFive = () => {
             </motion.div>
 
             <motion.div
-                    initial={{ opacity: 0, translateY: "10%" }}
+                initial={{ opacity: 0, translateY: "10%" }}
 
-                    whileInView={{ opacity: 1, translateY: 0 }}
-                    transition={{ duration: 1 }} className="mbScreen">
+                whileInView={{ opacity: 1, translateY: 0 }}
+                transition={{ duration: 1 }} className="mbScreen">
                 <div className="cardImgTwo">
                     <img src={GirlImg} alt="img" />
                     <div className="cardNameOne">

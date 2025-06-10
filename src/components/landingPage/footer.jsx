@@ -1,7 +1,7 @@
 import React from "react";
 import '../css/style.css';
 import '../css/hero.css';
-import { Link } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 const footer = () => {
 
     const copyRight = {
@@ -20,20 +20,19 @@ const footer = () => {
 
                     <div className="footerNav">
 
-                        <Link to="/">HOME</Link>
-
-                        <Link to="/Collection">COLLECTION</Link>
-                        <Link to="/About">ABOUT</Link>
+                        <NavLink to='/' className={({ isActive }) => isActive ? 'active-link' : ''}>Home</NavLink>
+                        <NavLink to='/collection' className={({ isActive }) => isActive ? 'active-link' : ''}>Collection</NavLink>
+                        <NavLink to='/About' className={({ isActive }) => isActive ? 'active-link' : ''}>About</NavLink>
 
                     </div>
                 </div>
+                <div className="underLine">
 
+                </div>
 
                 <div className="copyRightTag">
-                    <div className="underLine">
 
-                    </div>
-                    <h1>@2024 Copyright. <span style={copyRight}> CAPG Booking </span></h1>
+                    <h1>@2025 Copyright. <span style={copyRight}> CAPG Booking </span></h1>
                 </div>
             </div>
 

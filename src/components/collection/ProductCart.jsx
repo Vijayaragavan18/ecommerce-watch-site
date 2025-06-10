@@ -22,13 +22,6 @@ const ProductCart = ({ products }) => {
 
     return (
         <>
-
-
-
-
-
-
-
             <div className="cardSection2" >
 
 

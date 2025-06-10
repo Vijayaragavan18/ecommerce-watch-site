@@ -1,5 +1,6 @@
 import React, { useContext, useState } from "react";
-import { Link } from 'react-router-dom';
+
+import { NavLink } from 'react-router-dom';
 import '../css/style.css';
 
 import { FaShoppingCart } from "react-icons/fa";
@@ -20,31 +21,34 @@ const NavBar = () => {
 
     return (
         <>
+
+
+
             <div className="nav1">
                 <div className="navBarSection">
                     <div className="logoImg">
-                        <Link to='/' style={{ color: ' #F3F1E7 ' }}>Capgs</Link>
+                        <NavLink to='/' style={{ color: ' #F3F1E7 ' }}>Capgs</NavLink>
                     </div>
                     <div className="navHide">
                         <div className="navCenter">
-                            <Link to='/'>Home</Link>
-                            <Link to='/collection'>Collection</Link>
-                            <Link to='/About'>About</Link>
+                            <NavLink to='/' className={({ isActive }) => isActive ? 'active-link' : ''}>Home</NavLink>
+                           <NavLink to='/collection' className={({ isActive }) => isActive ? 'active-link' : ''}>Collection</NavLink>
+                            <NavLink to='/About' className={({ isActive }) => isActive ? 'active-link' : ''}>About</NavLink>
                         </div>
                     </div>
                     <div className="navHide">
                         <div className="logDetails">
-                            <Link to="/Cart"><span>{cart.length}</span> {< FaShoppingCart />}</Link>
+                            <NavLink to="/Cart"><span>{cart.length}</span> {< FaShoppingCart />}</NavLink>
                             {
                                 check != false ?
-                                    <Link to='/UserAccount' className="btn btn-primary" type="button">User Account</Link> :
+                                    <NavLink to='/UserAccount' className="btn btn-primary" type="button">User Account</NavLink> :
                                     <button onClick={() => setvisible(true)} className="btn btn-primary" type="button">login</button>
                             }
                         </div>
                     </div>
 
                     <div className="menuIconTag">
-                        <Link to="/Cart"><span>{cart.length}</span> {< FaShoppingCart />}</Link>
+                        <NavLink to="/Cart"><span>{cart.length}</span> {< FaShoppingCart />}</NavLink>
 
 
                         {isOpen == false ?
@@ -66,13 +70,13 @@ const NavBar = () => {
             {isOpen &&
                 <div className="menuSec" onClick={() => setIsOpen(false)}>
                     <div className="menuSideBar">
-                        <Link to='/'>Home</Link>
-                        <Link to='/collection'>Collection</Link>
-                        <Link to='/About'>About</Link>
+                       <NavLink to='/' className={({ isActive }) => isActive ? 'active-link' : ''}>Home</NavLink>
+                           <NavLink to='/collection' className={({ isActive }) => isActive ? 'active-link' : ''}>Collection</NavLink>
+                            <NavLink to='/About' className={({ isActive }) => isActive ? 'active-link' : ''}>About</NavLink>
                         <div className="logDetails">
                             {
                                 check != false ?
-                                    <Link to='/UserAccount' className="btn btn-primary" type="button">User Account</Link> :
+                                    <NavLink to='/UserAccount' className="btn btn-primary" type="button">User Account</NavLink> :
                                     <button onClick={() => setvisible(true)} className="btn btn-primary" type="button">login</button>
                             }
                         </div>

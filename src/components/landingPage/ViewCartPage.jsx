@@ -27,9 +27,7 @@ function ViewCartPage() {
 
         setCart([...cart, item])
     }
-    // const removeCart = (id) => {
-    //     setCart(cart.filter((c) => c.id !== products.id));
-    // }
+    
 
     const removeCart = (item) => {
         setCart(cart.filter((c) => c.id !== item.id));
