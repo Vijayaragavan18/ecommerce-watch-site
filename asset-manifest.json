@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecommerce-watch-site/static/css/main.72eaefd6.css",
-    "main.js": "/ecommerce-watch-site/static/js/main.8181ca01.js",
+    "main.css": "/ecommerce-watch-site/static/css/main.b320d5a1.css",
+    "main.js": "/ecommerce-watch-site/static/js/main.a2bbf496.js",
     "static/media/card8.png": "/ecommerce-watch-site/static/media/card8.a5d328f63e32feb4e062.png",
     "static/media/logBg.png": "/ecommerce-watch-site/static/media/logBg.23afe95e0ad55d6f65e0.png",
     "static/media/bg1.png": "/ecommerce-watch-site/static/media/bg1.399f9cd1e906aadd96cf.png",
@@ -66,11 +66,11 @@
     "static/media/Layer7.png": "/ecommerce-watch-site/static/media/Layer7.2cacea122a4382676f23.png",
     "static/media/Layer5.png": "/ecommerce-watch-site/static/media/Layer5.da526fb9bdaadf0ca155.png",
     "index.html": "/ecommerce-watch-site/index.html",
-    "main.72eaefd6.css.map": "/ecommerce-watch-site/static/css/main.72eaefd6.css.map",
-    "main.8181ca01.js.map": "/ecommerce-watch-site/static/js/main.8181ca01.js.map"
+    "main.b320d5a1.css.map": "/ecommerce-watch-site/static/css/main.b320d5a1.css.map",
+    "main.a2bbf496.js.map": "/ecommerce-watch-site/static/js/main.a2bbf496.js.map"
   },
   "entrypoints": [
-    "static/css/main.72eaefd6.css",
-    "static/js/main.8181ca01.js"
+    "static/css/main.b320d5a1.css",
+    "static/js/main.a2bbf496.js"
   ]
 }
