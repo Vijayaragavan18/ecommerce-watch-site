@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import '../css/style.css';
 import AboutImg from "../../images/about.png";
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
 import AboutImgMb from '../../assets/mobileImg/aboutMobile.png';
 import { IoMdMail, IoLogoWhatsapp, IoMdContact } from "react-icons/io";
 function about() {

@@ -6,7 +6,7 @@ import { cartContext } from '../../connect';
 import { Link } from 'react-router-dom';
 import AdressPage from '../landingPage/address.jsx';
 import LogPage from "../landingPage/logPage.jsx";
-import UserPage from '../userAccount/UserPage.jsx'
+import UserPage from '../userAccount/UserPage.jsx';
 const Cart = () => {
 
     var [total, setTotal] = useState(0);
