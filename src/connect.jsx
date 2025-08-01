@@ -11,8 +11,8 @@ import Cart from './components/cart/Cart';
 import App from './App';
 import Data from './assets/product.json';
 import ViewCart from './components/landingPage/ViewCartPage.jsx';
-
-
+import ScrollTop from './scrollTop';
+import '../src/components/css/hero.css';
 
 import Brand1 from './assets/productImage/brand.png';
 import Brand2 from './assets/productImage/brand1.png';
@@ -77,7 +77,9 @@ function Connect() {
 
 
             <BrowserRouter basename='/ecommerce-watch-site'>
+                <ScrollTop />
                 <Nav />
+
                 <Routes>
                     <Route path="/" element={<App />}></Route>
                     <Route path="/Collection" element={<Collection />}></Route>

@@ -32,7 +32,7 @@ const NavBar = () => {
                     <div className="navHide">
                         <div className="navCenter">
                             <NavLink to='/' className={({ isActive }) => isActive ? 'active-link' : ''}>Home</NavLink>
-                           <NavLink to='/collection' className={({ isActive }) => isActive ? 'active-link' : ''}>Collection</NavLink>
+                            <NavLink to='/collection' className={({ isActive }) => isActive ? 'active-link' : ''}>Collection </NavLink>
                             <NavLink to='/About' className={({ isActive }) => isActive ? 'active-link' : ''}>About</NavLink>
                         </div>
                     </div>
@@ -70,9 +70,9 @@ const NavBar = () => {
             {isOpen &&
                 <div className="menuSec" onClick={() => setIsOpen(false)}>
                     <div className="menuSideBar">
-                       <NavLink to='/' className={({ isActive }) => isActive ? 'active-link' : ''}>Home</NavLink>
-                           <NavLink to='/collection' className={({ isActive }) => isActive ? 'active-link' : ''}>Collection</NavLink>
-                            <NavLink to='/About' className={({ isActive }) => isActive ? 'active-link' : ''}>About</NavLink>
+                        <NavLink to='/' className={({ isActive }) => isActive ? 'active-link' : ''}>Home</NavLink>
+                        <NavLink to='/collection' className={({ isActive }) => isActive ? 'active-link' : ''}>Collection</NavLink>
+                        <NavLink to='/About' className={({ isActive }) => isActive ? 'active-link' : ''}>About</NavLink>
                         <div className="logDetails">
                             {
                                 check != false ?

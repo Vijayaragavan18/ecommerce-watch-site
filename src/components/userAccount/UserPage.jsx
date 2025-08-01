@@ -21,9 +21,9 @@ function UserPage() {
                     adressPage &&
 
                     <div className="afterNote">
-                        <h1 className='text-success success_note' > {input.UserName}, Your Product Successfully Ordered</h1>
+                        <h1 className='text-success success_note' > {input.UserName}, Your Product Successfully Ordered </h1>
 
-                        <p className="text-danger">Now You Can REFRESH Your Screen</p>
+
 
                     </div>
 

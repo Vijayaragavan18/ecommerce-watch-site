@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 import MbOne from '../../assets/mobileImg/one.png';
 import MbTwo from '../../assets/mobileImg/two.png';
 import MbThree from '../../assets/mobileImg/three.png';
-
+import '../css/hero.css';
 
 
 import '../css/style.css';
@@ -94,13 +94,13 @@ The 'Wonders Of India'
                             <div className="heroTexts">
                                 <h3><span style={{ fontWeight: "bold" }}> Dont ever trust</span> a man who wears
                                     <br /> his watch on the <span style={styleCss}>wrong wrist </span></h3>
-                                <Link to='/collection'><button >LEARN MORE</button></Link>
+                                <Link to='/collection'><button >SEE MORE</button></Link>
                             </div>
 
                             <div className="heroTextsHide">
                                 <h3> Dont ever trust a man who wears
                                     his watch on thewrong wrist </h3>
-                                <Link to='/collection'><button >LEARN MORE</button></Link>
+                                <Link to='/collection'><button >SEE MORE</button></Link>
                             </div>
                         </div>
 
@@ -112,10 +112,10 @@ The 'Wonders Of India'
                             <img src={BgTwo} className="oneImg" alt="bgImage" />
                             <img src={MbOne} className="TwoImg" alt="bgImage" />
                             <div className="heroTextsTwo">
-                                <Link to='/collection'><button >LEARN MORE</button></Link>
+                                <Link to='/collection'><button >SEE MORE</button></Link>
                             </div>
                             <div className="heroTextsHide">
-                                <Link to='/collection'><button >LEARN MORE</button></Link>
+                                <Link to='/collection'><button >SEE MORE</button></Link>
                             </div>
                         </div>
 
@@ -128,11 +128,11 @@ The 'Wonders Of India'
                             <img src={MbTwo} className="TwoImg" alt="bgImage" />
                             <div className="heroTextsThree">
                                 <h3>No wonder, it's a wonder</h3>
-                                <Link to='/collection'><button >LEARN MORE</button></Link>
+                                <Link to='/collection'><button >SEE MORE</button></Link>
                             </div>
                             <div className="heroTextsThreeHide">
                                 <h3>No wonder, it's a wonder</h3>
-                                <Link to='/collection'><button >LEARN MORE</button></Link>
+                                <Link to='/collection'><button >SEE MORE</button></Link>
                             </div>
                         </div>
 

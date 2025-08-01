@@ -34,14 +34,14 @@ const heroPageTwo = () => {
 
 
             <motion.div
-                    initial={{ opacity: 0, translateY: "10%" }}
+                initial={{ opacity: 0, translateY: "10%" }}
 
-                    whileInView={{ opacity: 1, translateY: 0 }}
-                    transition={{ duration: 1 }}
+                whileInView={{ opacity: 1, translateY: 0 }}
+                transition={{ duration: 1 }}
 
                 className="newBrandSection ">
                 <div className="cardTwoHead">
-                    <h3> <span style={styleCenter}> NEW </span> BRANDS</h3>
+                    <h3> <span style={styleCenter}> OUR </span> CUSTOMERS</h3>
                 </div>
                 <div className="brandCardSection">
 

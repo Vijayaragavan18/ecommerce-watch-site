@@ -158,7 +158,7 @@ const LogPage = ({ onClose }) => {
                                     <div className="logLinks">
 
                                         <a href="./">Forgot Your Password ? </a>
-                                        <button onClick={() => setShowReg("Sign Up")}>New User </button>
+                                        <button class="newUserBtn" onClick={() => setShowReg("Sign Up")}>New User </button>
                                     </div>
                                     <div className="loginBtns">
 

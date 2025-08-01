@@ -34,7 +34,7 @@ const heroPageFive = () => {
                                     gift for a man </h1>
                                 <p>Founded in 1978 in Milan,Gianni Versace S.r.l is one of the leading  international fashion design houses and a symbol of Italian luxury  world-wide. It designs, manufactures, distributes and retails fashion  and lifestyle products .</p>
                             </div>
-                            <Link to='/collection'><button>LEARN MORE</button></Link>
+                            <Link to='/collection'><button>SEE MORE</button></Link>
 
                         </div>
                     </div>
@@ -49,7 +49,7 @@ const heroPageFive = () => {
                                     These styles are  adorned with crystals from bezel to bracelet.
                                 </p>
                             </div>
-                            <Link to='/collection'><button>LEARN MORE</button></Link>
+                            <Link to='/collection'><button>SEE MORE</button></Link>
                         </div>
                         <div className="achievementImage"><img src={GirlImgTwo} alt="Achievement" /></div>
                     </div>
@@ -70,7 +70,7 @@ const heroPageFive = () => {
                                 <h1>A watch is a great gift for a man </h1>
                                 <p>TFounded in 1978 in Milan,Gianni Versace S.r.l is one of the leading  international fashion design houses and a symbol of Italian luxury  world-wide. It designs, manufactures, distributes and retails fashion  and lifestyle products .</p>
                             </div>
-                            <Link to='/collection'><button>LEARN MORE</button></Link>
+                            <Link to='/collection'><button>SEE MORE</button></Link>
                         </div>
                     </div>
                 </div>
@@ -86,7 +86,7 @@ const heroPageFive = () => {
                                     These styles are  adorned with crystals from bezel to bracelet.
                                 </p>
                             </div>
-                            <Link to='/collection'><button>LEARN MORE</button></Link>
+                            <Link to='/collection'><button>SEE MORE</button></Link>
                         </div>
                     </div>
                 </div>

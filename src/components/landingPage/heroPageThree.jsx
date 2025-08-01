@@ -28,20 +28,20 @@ const heroPageThree = () => {
         <>
 
             <motion.div
-                    initial={{ opacity: 0, translateY: "10%" }}
+                initial={{ opacity: 0, translateY: "10%" }}
 
-                    whileInView={{ opacity: 1, translateY: 0 }}
-                    transition={{ duration: 1 }}
+                whileInView={{ opacity: 1, translateY: 0 }}
+                transition={{ duration: 1 }}
                 className="arrivalHead">
                 <h3>Latest Arrival</h3>
                 <h3>LATEST ARRIVAL</h3>
             </motion.div>
 
             <motion.div
-                    initial={{ opacity: 0, translateY: "10%" }}
+                initial={{ opacity: 0, translateY: "10%" }}
 
-                    whileInView={{ opacity: 1, translateY: 0 }}
-                    transition={{ duration: 1 }}
+                whileInView={{ opacity: 1, translateY: 0 }}
+                transition={{ duration: 1 }}
                 className="arrivalCardSection">
 
                 <motion.div
@@ -49,7 +49,7 @@ const heroPageThree = () => {
                     whileHover={{ scale: 1.08 }}
                     className="arrivalCard">
                     <img src={ImgOne} alt="ArrivalImage" />
-                    <Link to='/collection'><motion.button whileTap={{ scale: 0.8 }} className="arrivalBtn">LEARN MORE</motion.button></Link>
+                    <Link to='/collection'><motion.button whileTap={{ scale: 0.8 }} className="arrivalBtn">SEE MORE</motion.button></Link>
                 </motion.div>
 
                 <motion.div
@@ -57,21 +57,21 @@ const heroPageThree = () => {
                     whileHover={{ scale: 1.08 }}
                     className="arrivalCard">
                     <img src={ImgTwo} alt="ArrivalImage" />
-                    <Link to='/collection'><motion.button whileTap={{ scale: 0.8 }} className="arrivalBtn">LEARN MORE</motion.button></Link>
+                    <Link to='/collection'><motion.button whileTap={{ scale: 0.8 }} className="arrivalBtn">SEE MORE</motion.button></Link>
                 </motion.div>
                 <motion.div
 
                     whileHover={{ scale: 1.08 }}
                     className="arrivalCard">
                     <img src={ImgThree} alt="ArrivalImage" />
-                    <Link to='/collection'><motion.button whileTap={{ scale: 0.8 }} className="arrivalBtn">LEARN MORE</motion.button></Link>
+                    <Link to='/collection'><motion.button whileTap={{ scale: 0.8 }} className="arrivalBtn">SEE MORE</motion.button></Link>
                 </motion.div>
                 <motion.div
 
                     whileHover={{ scale: 1.08 }}
                     className="arrivalCard">
                     <img src={ImgFour} alt="ArrivalImage" />
-                    <a href="./"><motion.button whileTap={{ scale: 0.8 }} className="arrivalBtn">LEARN MORE</motion.button></a>
+                    <a href="./"><motion.button whileTap={{ scale: 0.8 }} className="arrivalBtn">SEE MORE</motion.button></a>
                 </motion.div>
 
                 <motion.div
@@ -79,7 +79,7 @@ const heroPageThree = () => {
                     whileHover={{ scale: 1.08 }}
                     className="arrivalCard">
                     <img src={ImgFive} alt="ArrivalImage" />
-                    <Link to='/collection'><motion.button whileTap={{ scale: 0.8 }} className="arrivalBtn">LEARN MORE</motion.button></Link>
+                    <Link to='/collection'><motion.button whileTap={{ scale: 0.8 }} className="arrivalBtn">SEE MORE</motion.button></Link>
                 </motion.div>
 
                 <motion.div
@@ -87,15 +87,15 @@ const heroPageThree = () => {
                     whileHover={{ scale: 1.08 }}
                     className="arrivalCard">
                     <img src={ImgSix} alt="ArrivalImage" />
-                    <Link to='/collection'><motion.button whileTap={{ scale: 0.8 }} className="arrivalBtn">LEARN MORE</motion.button></Link>
+                    <Link to='/collection'><motion.button whileTap={{ scale: 0.8 }} className="arrivalBtn">SEE MORE</motion.button></Link>
                 </motion.div>
 
             </motion.div>
             <motion.div
-                    initial={{ opacity: 0, translateY: "10%" }}
+                initial={{ opacity: 0, translateY: "10%" }}
 
-                    whileInView={{ opacity: 1, translateY: 0 }}
-                    transition={{ duration: 1 }}
+                whileInView={{ opacity: 1, translateY: 0 }}
+                transition={{ duration: 1 }}
                 className="arrivalCardSectionTwo">
 
 
@@ -104,27 +104,27 @@ const heroPageThree = () => {
 
                     whileHover={{ scale: 1.08 }} className="arrivalCard">
                     <img src={HeroPageOne} alt="ArrivalImage" />
-                    <Link to='/collection'><motion.button whileTap={{ scale: 0.8 }} className="arrivalBtn">LEARN MORE</motion.button></Link>
+                    <Link to='/collection'><motion.button whileTap={{ scale: 0.8 }} className="arrivalBtn">SEE MORE</motion.button></Link>
                 </div>
 
                 <motion.div
 
                     whileHover={{ scale: 1.08 }} className="arrivalCard">
                     <img src={HeroPageTwo} alt="ArrivalImage" />
-                    <Link to='/collection'><motion.button whileTap={{ scale: 0.8 }} className="arrivalBtn">LEARN MORE</motion.button></Link>
+                    <Link to='/collection'><motion.button whileTap={{ scale: 0.8 }} className="arrivalBtn">SEE MORE</motion.button></Link>
                 </motion.div>
 
                 <motion.div
 
                     whileHover={{ scale: 1.08 }} className="arrivalCard">
                     <img src={HeroPageThree} alt="ArrivalImage" />
-                    <Link to='/collection'><motion.button whileTap={{ scale: 0.8 }} className="arrivalBtn">LEARN MORE</motion.button></Link>
+                    <Link to='/collection'><motion.button whileTap={{ scale: 0.8 }} className="arrivalBtn">SEE MORE</motion.button></Link>
                 </motion.div>
                 <motion.div
 
                     whileHover={{ scale: 1.08 }} className="arrivalCard">
                     <img src={HeroPageFour} alt="ArrivalImage" />
-                    <Link to='/collection'><motion.button whileTap={{ scale: 0.8 }} className="arrivalBtn">LEARN MORE</motion.button></Link>
+                    <Link to='/collection'><motion.button whileTap={{ scale: 0.8 }} className="arrivalBtn">SEE MORE</motion.button></Link>
                 </motion.div>
 
 
