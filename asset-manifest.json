@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/ecommerce-watch-site/static/css/main.b320d5a1.css",
-    "main.js": "/ecommerce-watch-site/static/js/main.a2bbf496.js",
+    "main.css": "/ecommerce-watch-site/static/css/main.1b37f9b8.css",
+    "main.js": "/ecommerce-watch-site/static/js/main.146f8398.js",
+    "static/media/girlImgTwo.png": "/ecommerce-watch-site/static/media/girlImgTwo.e54da1383522139e79af.png",
     "static/media/card8.png": "/ecommerce-watch-site/static/media/card8.a5d328f63e32feb4e062.png",
+    "static/media/girlImg.png": "/ecommerce-watch-site/static/media/girlImg.8a1d69aa170309bb17c8.png",
+    "static/media/heroBanner.png": "/ecommerce-watch-site/static/media/heroBanner.62e8c0c6544d55c4f5fe.png",
     "static/media/logBg.png": "/ecommerce-watch-site/static/media/logBg.23afe95e0ad55d6f65e0.png",
     "static/media/bg1.png": "/ecommerce-watch-site/static/media/bg1.399f9cd1e906aadd96cf.png",
     "static/media/three.png": "/ecommerce-watch-site/static/media/three.c83dcbd93fd68918c899.png",
     "static/media/bgOne.png": "/ecommerce-watch-site/static/media/bgOne.5c5de72a431c7f67d473.png",
     "static/media/bg2.jpg": "/ecommerce-watch-site/static/media/bg2.6bbf75f3dd1f28cd67d2.jpg",
-    "static/media/girlImgTwo.png": "/ecommerce-watch-site/static/media/girlImgTwo.1119d0764eb1abba6799.png",
-    "static/media/girlImg.png": "/ecommerce-watch-site/static/media/girlImg.6f547e1584d8408a4f01.png",
     "static/media/one.png": "/ecommerce-watch-site/static/media/one.f29c3905e11511f6837d.png",
     "static/media/two.png": "/ecommerce-watch-site/static/media/two.b577683638d07b71594c.png",
     "static/media/secOne.png": "/ecommerce-watch-site/static/media/secOne.dbc779540c1339b6dc23.png",
@@ -24,7 +25,6 @@
     "static/media/adBanner.png": "/ecommerce-watch-site/static/media/adBanner.bd7e24b5a4eebd4e40b4.png",
     "static/media/celeb2.png": "/ecommerce-watch-site/static/media/celeb2.2f39d52dca20df677f3a.png",
     "static/media/imgSix.png": "/ecommerce-watch-site/static/media/imgSix.2411a0f75c63f7440d0f.png",
-    "static/media/heroBanner.png": "/ecommerce-watch-site/static/media/heroBanner.be63d7f46487b3d043d2.png",
     "static/media/imgTwo.png": "/ecommerce-watch-site/static/media/imgTwo.8b9b6fd88e7f4ccb33bb.png",
     "static/media/heroOne.png": "/ecommerce-watch-site/static/media/heroOne.35f53fd282b533ce423c.png",
     "static/media/imgFive.png": "/ecommerce-watch-site/static/media/imgFive.5514d509ecf1bb0d5cc2.png",
@@ -66,11 +66,11 @@
     "static/media/Layer7.png": "/ecommerce-watch-site/static/media/Layer7.2cacea122a4382676f23.png",
     "static/media/Layer5.png": "/ecommerce-watch-site/static/media/Layer5.da526fb9bdaadf0ca155.png",
     "index.html": "/ecommerce-watch-site/index.html",
-    "main.b320d5a1.css.map": "/ecommerce-watch-site/static/css/main.b320d5a1.css.map",
-    "main.a2bbf496.js.map": "/ecommerce-watch-site/static/js/main.a2bbf496.js.map"
+    "main.1b37f9b8.css.map": "/ecommerce-watch-site/static/css/main.1b37f9b8.css.map",
+    "main.146f8398.js.map": "/ecommerce-watch-site/static/js/main.146f8398.js.map"
   },
   "entrypoints": [
-    "static/css/main.b320d5a1.css",
-    "static/js/main.a2bbf496.js"
+    "static/css/main.1b37f9b8.css",
+    "static/js/main.146f8398.js"
   ]
 }
